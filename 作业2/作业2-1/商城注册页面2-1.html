@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>商城注册页面2-1</title>
+</head>
+<body>
+	<form method="get">
+			<div>		
+			<label for="username">名字：</label>
+			<input type="text" name="name" id="username" placeholder="请输入姓名">
+		    </div>	
+			<div>		
+			<label for="xingshi">姓氏：</label>
+			<input type="text" name="xname" id="xingshi" value="王" disabled="disabled">
+		    </div>
+			<div>		
+			<label for="dname">登录名：</label>
+			<input type="text" name="lname" id="dname" >
+			(可以包含a-z,0-9和下划线)
+		    </div>
+			<div>
+			<label for="pwd">密码：</label>
+			<input type="password" name="pwd" id="pwd">
+			(至少包含6个字符)
+		    </div>
+			<div>
+			<label for="pwd">再次输入密码：</label>
+			<input type="password" name="pwd" id="pwd">
+			(至少包含6个字符)
+		    </div>	
+		    <div>
+			<label for="email">电子邮箱：</label>
+			<input type="text" name="email" id="email">
+			(必须包含@字符)
+		    </div>
+		<div>
+			<laber>性别：</laber>
+			<input type="radio" name="gender" id="male" value="0"> <label for="male">男</label>
+			<input type="radio" name="gender" id="female" value="1"><label for="female">女</label>
+		</div>
+				<div>
+			<label>选择文件：</label>
+			<input type="file" name="">
+
+
+		</div>
+		<div>
+			<laber>爱好:</laber>
+			<input type="checkbox" name="like" value="sport">运动
+			<input type="checkbox" name="like" value="chat">聊天
+			<input type="checkbox" name="like" value="game">玩游戏
+		</div>		
+	<input type="submit" name="" value="提交">
+	<input type="reset" value="重置">
+	<input type="button" name="" value="按钮">		
+
+
+	</form>
+</body>
+</html>

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>用户登录</title>
+</head>
+<body> 
+	<h3>用户登录</h3>
+	<form action="login.jsp" method="POST">
+			<p>		
+			<label for="name">用户名：</label>
+			<input type="text" name="name" id="name" >
+			
+		    <p>
+		    
+			<p>
+			<label for="pwd">密码：</label>
+			<input type="password" name="pwd" id="pwd">
+		    </p>
+		    <p>
+			<label></label>
+			<input type="radio" name="p1" value="0"><label >简约版</label>
+			<input type="radio" name="p1" value="1"><label >豪华版</label>
+		    </p>
+		    <p>
+		    	<label></label>
+		    	<input type="checkbox" name="rname" > 记住密码
+				<input type="checkbox" name="rname" > 安全登录
+		   </p>		    
+        <input type="submit" id="submit" value="登录">  <input type="reset" value="重置">
+		
+	</form>
+	
+</body>
+</html>

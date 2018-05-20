@@ -1,0 +1,19 @@
+h1{
+	background-color: red;
+	width: 250px;
+	color: white;
+	margin-bottom: 0;
+	padding-bottom: 0;
+	background-image: url(images/arrow-down.gif);
+	background-repeat: no-repeat;
+	background-position: right;
+}
+ul{
+	background-color: gray;
+	margin-top: 0;
+	width: 210px;
+}
+li{
+	background:url(images/arrow-right.gif) right no-repeat ;
+	line-height: 30px;
+}

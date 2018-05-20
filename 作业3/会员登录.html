@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>盒子模型</title>
+	<style type="text/css">
+		.box{
+			border: 1px solid rgb(132,159,181);
+			width: 287px;
+			margin: 0 auto;
+			height: 201px;
+		}
+		.l1,.l2{
+			margin-left: 32px;
+
+		}
+		.I1{
+			margin-left: 85px;
+			margin-top: 5px;
+		}
+		
+		h3{
+			background-color: rgb(58,101,135);
+			height: 40px;
+			line-height: 40px;
+			margin-top: 0;
+			text-indent: 20px;
+			color: white;
+			margin-bottom: 0;
+		}
+		form{
+			width: 247px;
+			margin-left: 20px;
+			margin-top: 30px;
+		}
+		
+		
+	</style>
+</head>
+<body>
+	<div class="box">
+	<h3>会员登录</h3>		
+	<form>
+			<label class="l1">姓名：</label>
+			<input type="text" name="username" ><br>
+			<label for="email" class="l2">邮箱：</label>
+			<input type="text" name="email" id="email"><br>
+			<label for="phone">联系电话：</label>
+			<input type="text" name="phone" id="phone"><br>
+			<input type="submit" name="" value="登录" class="I1">
+	</form>
+
+
+
+	</div>
+</body>
+</html>
